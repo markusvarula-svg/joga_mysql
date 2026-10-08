@@ -2,17 +2,22 @@
   "name": "joga_mysql",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/markusvarula-svg/joga_mysql#readme",
+  "bugs": {
+    "url": "https://github.com/markusvarula-svg/joga_mysql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markusvarula-svg/joga_mysql.git"
+  },
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1",
-    "express-handlebars": "^9.0.1",
+    "express-handlebars": "^9.0.2",
     "mysql2": "^3.24.5"
   }
 }
